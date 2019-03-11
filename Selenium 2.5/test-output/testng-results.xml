@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5484" started-at="2019-01-10T10:31:16Z" finished-at="2019-01-10T10:31:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5484" started-at="2019-01-10T10:31:16Z" finished-at="2019-01-10T10:31:22Z">
+      <class name="hanjia.demo4">
+        <test-method status="PASS" signature="setup()[pri:0, instance:hanjia.demo4@2ac1fdc4]" name="setup" is-config="true" duration-ms="3013" started-at="2019-01-10T18:31:16Z" finished-at="2019-01-10T18:31:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:hanjia.demo4@2ac1fdc4]" name="login" duration-ms="723" started-at="2019-01-10T18:31:19Z" finished-at="2019-01-10T18:31:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="lei()[pri:0, instance:hanjia.demo4@2ac1fdc4]" name="lei" duration-ms="716" started-at="2019-01-10T18:31:20Z" depends-on-methods="hanjia.demo4.login" finished-at="2019-01-10T18:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lei -->
+        <test-method status="PASS" signature="dingdan()[pri:0, instance:hanjia.demo4@2ac1fdc4]" name="dingdan" duration-ms="454" started-at="2019-01-10T18:31:21Z" depends-on-methods="hanjia.demo4.lei" finished-at="2019-01-10T18:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dingdan -->
+        <test-method status="PASS" signature="gonggao()[pri:0, instance:hanjia.demo4@2ac1fdc4]" name="gonggao" duration-ms="562" started-at="2019-01-10T18:31:21Z" depends-on-methods="hanjia.demo4.dingdan" finished-at="2019-01-10T18:31:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gonggao -->
+      </class> <!-- hanjia.demo4 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
