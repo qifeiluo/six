@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="4852" started-at="2019-03-18T01:33:49Z" finished-at="2019-03-18T01:33:54Z">
+  <suite name="Suite" duration-ms="5366" started-at="2019-03-18T02:45:55Z" finished-at="2019-03-18T02:46:00Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="4852" started-at="2019-03-18T01:33:49Z" finished-at="2019-03-18T01:33:54Z">
+    <test name="Test" duration-ms="5366" started-at="2019-03-18T02:45:55Z" finished-at="2019-03-18T02:46:00Z">
       <class name="openbaidu.openbaidu">
-        <test-method status="PASS" signature="setup()[pri:0, instance:openbaidu.openbaidu@449b2d27]" name="setup" duration-ms="4841" started-at="2019-03-18T09:33:49Z" finished-at="2019-03-18T09:33:54Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:openbaidu.openbaidu@449b2d27]" name="setup" duration-ms="5351" started-at="2019-03-18T10:45:55Z" finished-at="2019-03-18T10:46:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
